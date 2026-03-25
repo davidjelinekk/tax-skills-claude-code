@@ -1,0 +1,36 @@
+# Sensitive tax data — never commit
+*.pdf
+*.xlsx
+*.xls
+*.csv
+*.ofx
+*.qfx
+*.qbo
+.env
+.env.*
+
+# Entity financial documents (personal workspace data)
+*/entities/*/income/
+*/entities/*/expenses/
+*/entities/*/returns/
+*/entities/*/correspondence/
+*/entities/*/workpapers/*.xlsx
+*/entities/*/workpapers/*.pdf
+
+# Personal workspace data
+2025/shared/deduction-strategies.md
+2025/tracking/
+2026/tracking/
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# Claude plans (temporary)
+.claude/plans/
+
+# Claude project memory (personal)
+.claude/projects/

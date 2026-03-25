@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "Bash(python3:*)",
+      "Bash(uv:*)",
+      "WebSearch",
+      "Bash(wc -l ~/.claude/skills/tax*/SKILL.md ~/.claude/skills/tax*/references/*.md)"
+    ]
+  },
+  "disabledMcpjsonServers": [
+    "notion",
+    "shopify-dev",
+    "shopify-store",
+    "microsoft-mcp-enhanced",
+    "looker-toolbox"
+  ]
+}
