@@ -83,7 +83,7 @@ The skills trigger automatically on tax-related questions, or invoke directly wi
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/tax-skills-claude-code.git
+git clone https://github.com/davidjelinekk/tax-skills-claude-code.git
 
 # Copy skills to Claude Code
 cp -r tax-skills-claude-code/skills/tax ~/.claude/skills/
@@ -96,7 +96,7 @@ cp -r tax-skills-claude-code/skills/tax-audit-risk ~/.claude/skills/
 ### One-Liner
 
 ```bash
-git clone https://github.com/yourusername/tax-skills-claude-code.git && cp -r tax-skills-claude-code/skills/tax* ~/.claude/skills/
+git clone https://github.com/davidjelinekk/tax-skills-claude-code.git && cp -r tax-skills-claude-code/skills/tax* ~/.claude/skills/
 ```
 
 ### Verify Installation
